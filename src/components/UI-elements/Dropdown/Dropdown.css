@@ -1,0 +1,35 @@
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.dropdown-label {
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
+.dropdown-select {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  font-size: var(--font-16);
+  background-color: var(--darkShade);
+  color: var(--white);
+  appearance: none;
+}
+
+.dropdown-select:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.select-error {
+  border-color: var(--error);
+}
+
+.error-message {
+  margin-top: 5px;
+  color: var(--error);
+  font-size: var(--font-12);
+}

@@ -1,0 +1,48 @@
+.numberInput {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.numberInput-label {
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
+.numberInput-input {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  font-size: var(--font-16);
+  background-color: var(--darkShade);
+  color: var(--white);
+}
+
+/* Remove number input arrows for modern browsers */
+.numberInput-input::-webkit-inner-spin-button,
+.numberInput-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Remove number input arrows for Firefox */
+.numberInput-input::-moz-appearance {
+  text-align: center;
+  vertical-align: middle;
+  appearance: textfield;
+}
+
+.numberInput-input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.input-error {
+  border-color: var(--error);
+}
+
+.error-message {
+  margin-top: 5px;
+  color: var(--error);
+  font-size: var(--font-12);
+}

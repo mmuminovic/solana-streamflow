@@ -1,0 +1,10 @@
+.homePage {
+  min-height: 100vh;
+}
+
+.newStream-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}

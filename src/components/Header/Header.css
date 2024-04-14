@@ -1,0 +1,30 @@
+.header {
+  width: 100%;
+  border-bottom: 1px solid var(--accent);
+}
+.header_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 50px;
+}
+.header_content-logo .topText {
+  font-size: var(--font-32);
+  font-weight: 900;
+  color: var(--white);
+  line-height: 0.8;
+}
+.header_content-logo .bottomText {
+  font-size: var(--font-12);
+  font-weight: 400;
+  color: var(--accent);
+  letter-spacing: 0.1725rem;
+}
+.header_content-connectBtn .wallet-adapter-button-trigger {
+  background-color: var(--accent);
+  color: var(--white);
+  height: 40px;
+}
+.header_content-connectBtn .wallet-adapter-button-trigger:hover {
+  background-color: var(--accent-hover);
+}

@@ -1,0 +1,27 @@
+.newStream {
+  /* max-width: 600px; */
+  padding: 30px 50px;
+  background-color: var(--bg-light);
+  border-radius: 8px;
+  color: var(--white);
+  width: 80%;
+}
+.newStream_content .formTitle {
+  font-size: var(--font-16);
+  font-weight: 700;
+  color: var(--white);
+  line-height: 0.8;
+  text-align: center;
+}
+.newStream_content form {
+  margin-top: 60px;
+}
+.newStream_content form .form-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 50px;
+}
+.newStream_content form .form-actions button {
+  width: 100%;
+}
